@@ -6,7 +6,7 @@ new_version=`echo "$first_new_line" | grep -oP "(?<=\s)v.*(?=\s)"`
 read -r -p "${1:-Are you sure to release "$new_version"? [y/N]} " response
     case "$response" in
         [yY][eE][sS]|[yY])
-            echo 'Releasing $new_version':
+            echo "Going to release $new_version":
               git pull origin master
               git commit -m "$new_version" $release_notes_file
               git tag $new_version
