@@ -1,3 +1,8 @@
+## v1.69.4 (2019-06-09)
+**Merged pull requests:**
+ 
+- AEI-6996 [\#69](https://github.com/twentyci/aei/pull/69)`
+
 ## v1.69.3 (2019-06-09)
 **Merged pull requests:**
  
